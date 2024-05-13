@@ -1,0 +1,284 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+:root {
+  --b:#000;
+  --w:#fff;
+  --s:#00ffd4;
+  --g:rgb(209, 204, 204);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--b);
+  color: var(--w);
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.page {
+  background-color: var(--b);
+  width: 100%;
+  height: 100vh !important;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+#pp-nav li .active span, .pp-slidesNav .active span {
+  background: var(--s) !important;
+}
+
+.intro_grid {
+  width: 100%;
+  max-width: 85%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 50% 10% 40%;
+  justify-content: center;
+}
+.intro_grid h1 {
+  color: var(--s);
+  font-size: 100px;
+  font-weight: 800;
+  text-align: start;
+}
+.intro_grid strong {
+  font-size: 40px;
+  font-weight: 800;
+}
+.intro_grid p {
+  font-size: 30px;
+  line-height: 0.8;
+}
+.intro_grid p span {
+  font-size: 20px;
+  color: var(--g);
+}
+
+.about {
+  width: 100%;
+}
+.about h1 {
+  color: var(--s);
+  font-size: 35px;
+}
+.about p {
+  max-width: 60%;
+  font-size: 21px;
+  line-height: 1.2;
+  padding: 10px 0;
+  font-weight: 400;
+}
+.about p span {
+  font-size: 25px;
+  color: var(--s);
+}
+.about .about_grid {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  justify-content: center;
+}
+.about .about_grid .about_cont ul li {
+  list-style: none;
+  padding: 10px 0;
+}
+.about .about_grid .about_cont ul li a {
+  text-decoration: none;
+  color: var(--w);
+}
+.about .about_grid .about_cont ul li a i {
+  color: var(--s);
+  padding-right: 10px;
+}
+.about .about_grid .about_work ul {
+  margin-left: 15px;
+}
+.about .about_grid .about_work ul li {
+  padding: 10px 0;
+}
+.about .about_grid .about_work ul li span {
+  color: var(--g);
+  font-size: 13px;
+}
+
+.skill h1 {
+  color: var(--s);
+  font-size: 50px;
+  font-weight: 800;
+}
+.skill p {
+  font-size: 20px;
+}
+.skill h2 {
+  margin-top: 50px;
+  color: var(--s);
+  font-size: 40px;
+  font-weight: 800;
+}
+.skill .skill_grid {
+  margin-top: 50px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  justify-content: center;
+}
+.skill .skill_grid .soft_skill h2 {
+  color: var(--s);
+  font-size: 40px;
+  font-weight: 800;
+}
+.skill .skill_grid .soft_skill ul {
+  margin-left: 15px;
+}
+.skill .skill_grid .soft_skill ul li {
+  padding: 5px 0;
+}
+.skill .skill_grid .skill_software h2 {
+  color: var(--s);
+  font-size: 40px;
+  font-weight: 800;
+  padding-bottom: 15px;
+}
+.skill .skill_grid .skill_software ul li {
+  list-style: none;
+  display: inline;
+  margin: 0 5px;
+}
+.skill .skill_grid .skill_software ul li i {
+  color: var(--s);
+  font-size: 90px;
+  padding-top: 25px;
+}
+.skill .skill_grid .skill_software ul li span {
+  padding: 13px 13px;
+  border: 5px solid var(--s);
+  color: var(--s);
+  font-size: 50px;
+  font-weight: 800;
+}
+
+.bg1 {
+  background: url(../image/phooto1.png), #000;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  height: auto;
+  background-position-x: 100px;
+}
+.bg1 .branding {
+  margin-top: -300px;
+}
+.bg1 .branding h1 {
+  color: var(--s);
+  font-size: 50px;
+  font-weight: 800;
+}
+.bg1 .branding p {
+  font-size: 20px;
+}
+
+.creative h1 {
+  color: var(--s);
+  font-size: 50px;
+  font-weight: 800;
+}
+.creative p {
+  font-size: 20px;
+}
+.creative .creative_grid {
+  margin-top: 100px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  justify-content: center;
+  grid-gap: 20px;
+  gap: 20px;
+}
+.creative .creative_grid .photo {
+  width: 80%;
+}
+.creative .creative_grid .photo img {
+  width: 300px;
+  height: auto;
+}
+
+.bg2 {
+  background: url(../image/photo2.png), #000;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  height: auto;
+  background-position-x: 100px;
+}
+.bg2 .branding {
+  margin-top: -300px;
+}
+.bg2 .branding h1 {
+  color: var(--s);
+  font-size: 50px;
+  font-weight: 800;
+}
+.bg2 .branding p {
+  font-size: 20px;
+}
+
+.bg3 {
+  background: url(../image/photo4.jpg), #000;
+  background-repeat: no-repeat;
+  background-size: 80%;
+  width: 100%;
+  height: auto;
+  background-position-x: 150px;
+  background-position-y: 150px;
+}
+.bg3 .branding {
+  margin-top: -300px;
+}
+.bg3 .branding h1 {
+  color: var(--s);
+  font-size: 50px;
+  font-weight: 800;
+}
+.bg3 .branding p {
+  font-size: 20px;
+}
+
+.bg4 {
+  background: url(../image/photo3.png), #000;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  height: auto;
+  background-position-x: 100px;
+}
+.bg4 .branding {
+  margin-top: -300px;
+}
+.bg4 .branding h1 {
+  color: var(--s);
+  font-size: 50px;
+  font-weight: 800;
+}
+.bg4 .branding p {
+  font-size: 20px;
+}
+
+.footer {
+  width: 100%;
+  max-width: 50%;
+  text-align: center;
+  margin: auto;
+}
+.footer h1 {
+  color: var(--s);
+  font-size: 40px;
+  margin: 20px;
+}/*# sourceMappingURL=style.css.map */
