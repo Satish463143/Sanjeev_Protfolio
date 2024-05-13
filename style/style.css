@@ -71,13 +71,13 @@ body {
 }
 .about p {
   max-width: 60%;
-  font-size: 21px;
+  font-size: 18px;
   line-height: 1.2;
   padding: 10px 0;
   font-weight: 400;
 }
 .about p span {
-  font-size: 25px;
+  font-size: 23px;
   color: var(--s);
 }
 .about .about_grid {
